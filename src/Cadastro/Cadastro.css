@@ -1,0 +1,84 @@
+.conteiner{
+    display: flex;
+    height: 655px;
+    overflow: hidden;
+}
+
+.esquerda{
+    padding-top: 90px;
+    width: 50%;
+    background-color: rgb(240, 239, 230);
+}
+
+.direita{
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.direita h1{
+    color: white;
+    font-size: 75px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome{
+    height: 50px;
+    width: 380px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.sobrenome{
+    height: 50px;
+    width: 380px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.email{
+    height: 50px;
+    width: 380px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+.senha{
+    height: 50px;
+    width: 380px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(202, 202, 202);
+    padding-left: 10px;
+    font-size: 15px;
+ }
+
+.botao{
+    cursor: pointer;
+    height: 50px;
+    width: 380px;
+    border-radius: 15px;
+    border: none;
+    background-color:darkgray;
+    color:white;
+    opacity: 0.3;
+}
+
+.botao:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
